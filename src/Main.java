@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        Person personCredentialsAge = new Person();
-        Person personGender = new Person( "User2", "male");
+        Person personCredentialsAge = new Person( "Amanda", "Frankies", " female", 32);
+        Person personGender = new Person( "Amanda", "female");
 
-        Person personAllFields = new Person ("User 3", " ", 42);
+        Person personAllFields = new Person ("Amanda", " Frankies ", " female", 32) ;
                 Person personDefaultConstructor = new Person();
 
    

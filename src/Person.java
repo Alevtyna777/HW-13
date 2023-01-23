@@ -5,11 +5,9 @@ public class Person  extends Main {
     public String gender;
     public String address;
 
-    public Person() {
 
-    }
 
-    public Person(String firstName, String lastName, int age) {
+    public Person(String firstName, String lastName, String s, int age) {
 
         this.firstName = firstName;
         this.lastName = lastName;
@@ -36,7 +34,6 @@ public class Person  extends Main {
     public Person() {
 
     }
-
 
 
     }
