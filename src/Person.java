@@ -1,4 +1,5 @@
-public class Person  extends Main {
+public class Person {
+
     public String firstName;
     public String lastName;
     public int age;
@@ -6,12 +7,12 @@ public class Person  extends Main {
     public String address;
 
 
-
-    public Person(String firstName, String lastName, String s, int age) {
+    public Person(String firstName, String lastName, int age, String address) {
 
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+        this.address = address;
 
     }
 
@@ -31,10 +32,14 @@ public class Person  extends Main {
         this.address = address;
     }
 
+    public Person(String firstName, String lastName, String address) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.address = address;
+    }
+
     public Person() {
 
     }
-
-
-    }
+}
 
